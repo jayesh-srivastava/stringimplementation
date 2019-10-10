@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Github1
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		String s=sc.next();
+		int l=s.length();
+		for(int x=0;x<=l-1;x++)
+		{
+			System.out.print(x+"\t");
+		}
+		System.out.println();
+		for(int y=0;y<=l-1;y++)
+		{
+			char ch=s.charAt(y);
+			System.out.print(ch+"\t");
+		}
+			
+	}
+		
+}
